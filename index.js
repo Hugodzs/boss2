@@ -1,7 +1,7 @@
 
 function rankingCalculator(wins, loses) {
+    let result = wins - loses
 
-    return wins - loses;
+    console.log(result)
 } 
-let resultRanking = rankingCalculator(25,50);
-console.log(rankingCalculator + "pontos de guerra")
+rankingCalculator(50,25);
