@@ -2,6 +2,6 @@
 function rankingCalculator(wins, loses) {
     let result = wins - loses
 
-    console.log(result)
+    console.log(result + " pontos! ")
 } 
 rankingCalculator(50,25);
