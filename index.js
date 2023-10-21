@@ -1,4 +1,4 @@
-//
+// função principal
 function rankingCalculator(wins, loses) {
    return wins - loses
 }
@@ -20,5 +20,6 @@ else if(result >=101){ranking= "Imortal"
 }
 else{console.log("erro fatal")
 }
+//saida
 console.log("Herói tem " + result + " pontos de guerra e está no ranking " + ranking + "!")
 
