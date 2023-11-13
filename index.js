@@ -7,7 +7,7 @@ result = rankingCalculator(200, 60);
 if(result <=10){ranking= "Ferro"
 }
 
-else if(result =>11 && result <=20){ranking= "Prata"
+else if(result >=11 && result <=20){ranking= "Prata"
 }
 else if(result >=11 && result <=20){ranking= "Bronze"
 }
